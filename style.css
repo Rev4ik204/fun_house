@@ -1,0 +1,74 @@
+:root {
+  --dark-1: #272727;
+  --blue-main: #051473;
+  --yellow-main: #faeb8c;
+  --yellow-light: #fffacb;
+  --white: #fff;
+  --black: #101010;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("./fonts/DM_Sans/DMSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("./fonts/Playfair_Display/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+:root {
+  --font-family: "DM Sans", sans-serif;
+  --second-family: "Playfair Display", sans-serif;
+  --third-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+.container {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background-color: var(--yellow-main);
+}
+
+.header .container {
+  padding: 38px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_logo {
+}
+
+.header_so_logo {
+}
+
+.hero {
+  background-color: var(--yellow-main);
+}
+
+.hero .container {
+  padding-top: 146px;
+  padding-bottom: 156px;
+}
+
+.hero_title {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 101px;
+line-height: 99%;
+color: var(--blue-main);
+width: 912px;
+}
