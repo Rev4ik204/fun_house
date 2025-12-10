@@ -46,7 +46,8 @@ h2,
 h3,
 h4,
 h5,
-h6,p {
+h6,
+p {
   margin: 0;
 }
 
@@ -100,7 +101,8 @@ h6,p {
 }
 
 /*-----MAIN_INFO----- */
-.main_info .container {padding-bottom: 141px;
+.main_info .container {
+  padding-bottom: 141px;
 }
 
 .wrap1 {
@@ -110,8 +112,7 @@ h6,p {
   margin-bottom: 114px;
 }
 
-.wrap1_title
-{
+.wrap1_title {
   padding-top: 11px;
 }
 
@@ -141,21 +142,113 @@ h6,p {
 }
 
 .wrap2 {
-width: 620px;margin-left: auto;
+  width: 620px;
+  margin-left: auto;
 
-.title {
-  font-family: var(--font-family);
-font-weight: 700;
-font-size: 28px;
-line-height: 154%;
-color: var(--blue-main);margin-bottom: 27px;
+  .title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 154%;
+    color: var(--blue-main);
+    margin-bottom: 27px;
+  }
+
+  .text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 154%;
+    color: var(--blue-main);
+  }
 }
 
-.text {
+/* -----PROJECTS---- */
+
+.projects .container {
+  padding-bottom: 57px;
+}
+.projects_list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.project_item {
+}
+.project_item_img {
+  margin-bottom: 31px;
+}
+.project_item_img:hover,
+.project_item_img:focus {
+  background: var(--blue-main);
+  mix-blend-mode: multiply;
+  opacity: 0.3;
+  z-index: 5;
+}
+.projects .decore {
+  margin-left: 20px;
+}
+.project_item_text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 154%;
+  color: var(--blue-main);
+  padding-left: 20px;
+  width: 296px;
+  height: 112px;
+}
+
+/* -----FOOTER----- */
+
+.footer {
+  background: var(--blue-main);
+}
+.footer .container {padding-top: 80px;padding-bottom: 60px;
+}
+.footer_wrap1 {display: flex;
+  justify-content: space-between;
+}
+.footer_logo {
+}
+.footer_list {
+  display: flex;
+}
+.footer_list_item {
+}
+.footer_item_link {
+}
+.footer_item_title {
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 38px;
+line-height: 199%;
+color: var(--yellow-main);
+}
+.footer_list_item_list {
+}
+.footer_list_item_list_item {
+}
+.footer_list_item_list_item_link {
   font-family: var(--font-family);
 font-weight: 400;
-font-size: 24px;
-line-height: 154%;
-color: var(--blue-main);
+font-size: 21px;
+line-height: 199%;
+color: var(--yellow-main);
 }
+.footer_wrap2 {
+}
+.sc1 {
+}
+.sc1_item {
+}
+.sc2 {
+}
+.sc2_item {
+}
+.sc2_item_link {
+}
+.sc2_item_icon {
 }
